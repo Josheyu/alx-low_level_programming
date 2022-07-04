@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - this is the function
+ * description - I sometimes suffer from insomnia
+ */
 int main(void)
 {
 int ch;
