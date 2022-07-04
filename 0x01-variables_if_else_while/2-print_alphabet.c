@@ -2,6 +2,7 @@
 /**
  * main - this is the function
  * description - I sometimes suffer from insomnia
+ * return - always 0
  */
 int main(void)
 {
