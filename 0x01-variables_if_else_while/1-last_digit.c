@@ -4,11 +4,11 @@
 
 /**
 *main -> assign a random number to the variable n each time it is executed
-*and print the last digit of the number stored in the variable n
-*Return : always 0
+*based a condition
+*Return: always 0
 */
 
-int main(void) /* main fanction*/
+int main(void) 
 {
 int n;
 
