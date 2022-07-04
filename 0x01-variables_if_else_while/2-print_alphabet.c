@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - this is the function
- * description - I sometimes suffer from insomnia
- * return - always 0
- */
+*main -> assign a random number to the variable n each time it is executed
+*based a condition
+*Return: always 0
+*/
 int main(void)
 {
 int ch;
