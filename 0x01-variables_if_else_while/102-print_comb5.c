@@ -7,21 +7,26 @@
 */
 int main(void)
 {
-int ch;
-int n;
-for (ch = 48; ch <= 57; ch++)
+int i, j;
+for (i = 0; j <= 99; j++)
 {
-for (n = 48; n <= 57; n++)
+for (i = j; i <= 99; i++)
 {
-putchar(ch);
-putchar(n);
-if (ch != 57 || n != 57)
+if (i != j)
 {
-putchar(44);
-putchar(32);
+putchar(j / 10 + 48);
+putchar(j % 10 + 48);
+putchar(' ');
+putchar(i / 10 + 48);
+putchar(i % 10 + 48);
+if (j * 100 + i != 9899)
+{
+putchar(',');
+putchar(' ');
 }
 }
 }
-putchar(10); /* this is an ascii code for new line */
+}
+putchar('\n');
 return (0);
 }
