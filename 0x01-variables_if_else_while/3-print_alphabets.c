@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-*main -> assign a random number to the variable n each
-*description -> and print the last digit of the stored in the variable
-*Return -> Success always 0
-*/
+ * @brief main -> assign a random number to the variable n each
+ * 
+ * @return int Return -> Success always 0
+ */
 int main(void)
 {
 int ch;
