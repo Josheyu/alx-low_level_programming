@@ -5,6 +5,7 @@
  * and print the last digit of the stored in the variable
  * Return : always 0
  */
+
 int main(void)
 {
 int ch;
@@ -15,4 +16,5 @@ putchar(ch);
 putchar(10); /* this is an ascii code for new line */
 
 return (0);
+
 }
