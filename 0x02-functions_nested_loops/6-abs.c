@@ -2,7 +2,7 @@
 
 /**
  * _abs -> return absolute value of a number
- * @n: parameter
+ * @i: parameter
  * Return: absolute value of a number
  */
 
