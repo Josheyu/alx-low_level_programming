@@ -20,7 +20,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(c + '0');
-} 
+}
 else if (c >= 10)
 {
 _putchar(',');
