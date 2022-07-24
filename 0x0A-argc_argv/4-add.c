@@ -9,27 +9,30 @@
  */
 int main(int argc, char *argv[])
 {
-	int result = 0, num, i, j, k;
+	int sum = 0, i;
 
-	if (argc == 1)
-		printf("0\n");
-	for (i = 1; i < argc; i++)
+	if (argc > 1)
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
+		for (i = 1; i < argc; i++)
 		{
-			if (argv[i][j] > '9' || argv[i][j] < '0')
+			int b;
+			char *str;
+
+			str = argv[i];
+			for (b = 0; str[b] != '\0'; b++)
 			{
-				printf("%s\n", "Error");
-				return (1);
+				if (str[b] < 48 || str[b] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 		}
 	}
-
-	for (k = 1; k < argc; k++)
+	for (i = 1; i < argc; i++)
 	{
-		num = atoi(argv[k]);
-		result += num;
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", result);
+	printf("%d\n", sum);
 	return (0);
 }
