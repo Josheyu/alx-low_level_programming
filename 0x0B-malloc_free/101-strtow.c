@@ -44,7 +44,7 @@ char **strtow(char *str)
 	if (word == 0)
 		return (NULL);
 
-	matrix = (char **) malloc(sizeof(char *) * (words + 1));
+	matrix = (char **) malloc(sizeof(char *) * (word + 1));
 	if (matrix == NULL)
 		return (NULL);
 
