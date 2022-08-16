@@ -15,7 +15,7 @@
 typedef struct listint_s
 {
         int n;
-        struct listin_s *next;
+        struct listint_s *next;
 } listint_t;
 
 /**
@@ -28,7 +28,7 @@ typedef struct listint_s
 typedef struct listp_s
 {
         void *p;
-        struct lipstp_s *next;
+        struct listp_s *next;
 } listp_t;
 
 size_t print_listint(const listint_t *h);
@@ -38,7 +38,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 void free_listint2(listint_t **head);
 int pop_listint(listint_t **head);
-ilistint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 int sum_listint(listint_t *head);
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
